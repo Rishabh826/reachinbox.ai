@@ -7,7 +7,7 @@ const LoginPage = () => {
 
   const handleGoogleLogin = () => {
     // Redirect the user to the Google OAuth login page
-    window.location.href = "https://hiring.reachinbox.xyz/api/v1/auth/google-login?redirect_to=http://localhost:3000/onebox";
+    window.location.href = "https://hiring.reachinbox.xyz/api/v1/auth/google-login?redirect_to=https://reachinbox-ai-five.vercel.app/";
   };
 
   return (
